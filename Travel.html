@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travel Blog</title>
+
+<!--font awesome cdn link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+<!-- custom css file link -->
+<link rel="stylesheet" href="travel.css">
+
+</head>
+<body>
+
+<div id="menu-bar" class="fas fa-bars"></div>
+
+<header>
+<a href="#" class="logo"><span>world </span> Travel</a>
+
+<nav class="navbar">
+<a href="#home">home</a>
+<a href="#book">book</a>
+<a href="#packages">packages</a>
+<a href="#services">services</a>
+<a href="#contact">contact</a>
+</nav>
+
+<div class="icons">
+<i class="fas fa-search" id="search-btn"></i>
+<i class="fas fa-user" id="login-btn"></i>
+</div>
+
+<form action="" class="search-bar-container">
+<input type="search" id="search-bar" placeholder="search here...">
+<label for="search-bar" class="fas fa-search"></label>
+</form>
+</header>
+
+<div class="login-form-container">
+<i class="fas fa-times" id="form-close"></i>
+<form action="">
+<h3>login</h3>
+<input type="email" class="box" placeholder="enter your email">
+<input type="password" class="box" placeholder="enter your password">
+<input type="submit" value="login now" class="btn">
+<input type="checkbox" id="remember">
+<label for="remember">remember me</label>
+<p>forget password? <a href="#">click here</a></p>
+<p>don't have and account? <a href="#">register now</a></p>
+</form>
+</div>
+
+<section class="home" id="home">
+<div class="content">
+<h3>welcome to srilanka</h3>
+<p>Thanks for checking out our page "world travel" and<br> we’re so happy you want to know more about us!</p>
+<a href="#" class="btn">about us</a>
+</div>
+
+<div class="controls">
+<span class="vid-btn active" data-src="Image/v2.mp4"></span>
+<span class="vid-btn" data-src="Image/v4.mp4"></span>
+<span class="vid-btn" data-src="Image/v3.mp4"></span>
+</div>
+
+<div class="video-container">
+<video src="Image/v2.mp4" id="video-slider" loop autoplay muted></video>
+</div>
+</section>
+
+<section class="book" id="book">
+<h1 class="heading">
+<span>b</span>
+<span>o</span>
+<span>o</span>
+<span>k</span>
+<span class="space"></span>
+<span>n</span>
+<span>o</span>
+<span>w</span>
+</h1>
+
+<div class="row">
+
+<div class="image">
+<img src="Image/p1.jpg" alt="">
+</div>
+
+<form action="">
+<div class="inputBox">
+<h3>where to</h3>
+<input type="text" placeholder="place name">
+</div>
+
+<div class="inputBox">
+<h3>how many</h3>
+<input type="number" placeholder="number of guests">
+</div>
+
+<div class="inputBox">
+<h3>arrivals</h3>
+<input type="date">
+</div>
+
+<div class="inputBox">
+<h3>leaving</h3>
+<input type="date">
+</div>
+
+<input type="submit" class="btn" value="book now">
+</form>
+
+</div>
+</section>
+
+<section class="packages" id="packages">
+<h1 class="heading">
+<span>p</span>
+<span>a</span>
+<span>c</span>
+<span>k</span>
+<span>a</span>
+<span>g</span>
+<span>e</span>
+<span>s</span>
+</h1>
+
+<div class="box-container">
+<div class="box">
+<image src="Image/p2.jpg" alt="">
+<div class="content">
+<h3> <i class="fas fa-map-marker-alt"></i>queen's hotel</h3>
+<p>One of Sri Lanka's iconic historic hotels, Queen's Hotel, situated in the heart of Kandy, faces the beautiful splendid surroundings alongside the Kandy...</p>
+<div class="price">$90.00 </div>
+<a href="#" class="btn">book now</a>
+</div>
+</div>
+
+<div class="box">
+<image src="Image/p3.jpg" alt="">
+<div class="content">
+<h3> <i class="fas fa-map-marker-alt"></i>nine arch</h3>
+<p>The Nine Arches Bridge (Sinhala: ආරුක්කු නමයේ පාලම,) also called the Bridge in the Sky, is a viaduct bridge in Sri Lanka...</p>
+<div class="price">$90.00</div>
+<a href="#" class="btn">book now</a>
+</div>
+</div>
+
+<div class="box">
+<image src="Image/p4.jpg" alt="">
+<div class="content">
+<h3> <i class="fas fa-map-marker-alt"></i>kandy lake</h3>
+<p>Kandy Lake also known as Kiri Muhuda or the Sea of Milk, is an artificial lake in the heart of the hill city of Kandy, Sri Lanka, built in 1807 by King Sri...</p>
+<div class="price">$90.00</div>
+<a href="#" class="btn">book now</a>
+</div>
+</div>
+
+<div class="box">
+<image src="Image/p5.jpg" alt="">
+<div class="content">
+<h3> <i class="fas fa-map-marker-alt"></i>rawana waterfall</h3>
+<p>Ravana Falls is a popular sightseeing attraction in Sri Lanka. It currently ranks as one of the widest falls in the country...</p>
+<div class="price">$90.00</div>
+<a href="#" class="btn">book now</a>
+</div>
+</div>
+
+<div class="box">
+<image src="Image/p7.jpg" alt="">
+<div class="content">
+<h3> <i class="fas fa-map-marker-alt"></i>sri dhalada maligawa</h3>
+<p>Sri Dalada Maligawa or the Temple of the Sacred Tooth Relic is a Buddhist temple in the city of Kandy, Sri Lanka. It is located in the royal palace complex...</p>
+<div class="price">$90.00</div>
+<a href="#" class="btn">book now</a>
+</div>
+</div>
+
+<div class="box">
+<image src="Image/p9.jpg" alt="">
+<div class="content">
+<h3> <i class="fas fa-map-marker-alt"></i>nuwara eliya</h3>
+<p>Nuwara Eliya is a city in the hill country of the Central Province, Sri Lanka. Its name means "city on the plain (table land)" or "city of light"...</p>
+<div class="price">$90.00</div>
+<a href="#" class="btn">book now</a>
+</div>
+</div>
+
+<div class="box">
+<image src="Image/p10.jpg" alt="">
+<div class="content">
+<h3> <i class="fas fa-map-marker-alt"></i>kataragama</h3>
+<p>Kataragama is a pilgrimage town sacred to Hindu, Buddhist and indigenous Vedda people of Sri Lanka. People from South India also go there to worship...</p>
+<div class="price">$90.00</div>
+<a href="#" class="btn">book now</a>
+</div>
+</div>
+
+<div class="box">
+<image src="Image/p11.jpg" alt="">
+<div class="content">
+<h3> <i class="fas fa-map-marker-alt"></i>singharaja rain forest</h3>
+<p>Located in south-west Sri Lanka, Sinharaja is the country's last viable area of primary tropical rainforest. More than 60% of the trees are endemic and many...</p>
+<div class="price">$90.00</div>
+<a href="#" class="btn">book now</a>
+</div>
+</div>
+
+<div class="box">
+<image src="Image/p12.jpg" alt="">
+<div class="content">
+<h3> <i class="fas fa-map-marker-alt"></i>unawatuna</h3>
+<p>Unawatuna is a coastal town in Galle district of Sri Lanka. Unawatuna is a major tourist attraction in Sri Lanka and known for its beach and corals</p>
+<div class="price">$90.00</div>
+<a href="#" class="btn">book now</a>
+</div>
+</div>
+
+<div class="box">
+<image src="Image/p13.jpg" alt="">
+<div class="content">
+<h3> <i class="fas fa-map-marker-alt"></i>galle fort</h3>
+<p>Galle Fort in the Bay of Galle on the southwest coast of Sri Lanka, was built first in 1588 by the Portuguese, then extensively fortified by the Dutch...</p>
+<div class="price">$90.00</div>
+<a href="#" class="btn">book now</a>
+</div>
+</div>
+
+<div class="box">
+<image src="Image/p14.jpg" alt="">
+<div class="content">
+<h3> <i class="fas fa-map-marker-alt"></i>sigiriya rock</h3>
+<p>Sigiriya or Sinhagiri is an ancient rock fortress located in the northern Matale District near the town of Dambulla in the Central Province, Sri Lanka</p>
+<div class="price">$90.00</div>
+<a href="#" class="btn">book now</a>
+</div>
+</div>
+
+<div class="box">
+<image src="Image/p15.jpg" alt="">
+<div class="content">
+<h3> <i class="fas fa-map-marker-alt"></i>galle face</h3>
+<p>Galle Face Green (Galle Face Beach) is a half kilometer promenade in the heart of Colombo and was initially laid out in 1859 by Sir Henry Ward, Governor of...</p>
+<div class="price">$90.00</div>
+<a href="#" class="btn">book now</a>
+</div>
+</div>
+
+</div>
+<div class="load-more"><span class="btn">more...</span></div>
+</section>
+
+<section class="services" id="services">
+
+<h1 class="heading">
+<span>s</span>
+<span>e</span>
+<span>r</span>
+<span>v</span>
+<span>i</span>
+<span>c</span>
+<span>e</span>
+<span>s</span>
+</h1>
+
+<div class="box-container">
+
+<div class="box">
+<i class="fas fa-hotel"></i>
+<h3>affordable hotels</h3>
+<p>Affordable hotels offer budget-conscious travelers comfortable and reasonably priced accommodation options.
+These establishments prioritize providing essential amenities and a clean, welcoming environment without the high costs typically associated with luxury hotels.
+Affordable hotels cater to a wide range of travelers, including families, solo adventurers, and business travelers,
+making them an accessible choice for those seeking a cost-effective yet enjoyable stay during their travels. </p>
+</div>
+
+<div class="box">
+<i class="fas fa-utensils"></i>
+<h3>food and drinks</h3>
+<p>Food, and drinks are all essential components of a great travel experience. Travel services include everything from transportation to accommodations, and they can make or break your trip.
+From flights to rental cars and hotels, there are many different options to choose from that can fit your budget and travel style.
+When planning a trip,it's important to consider all of these elements to ensure a seamless and enjoyable experience</p>
+</div>
+
+<div class="box">
+<i class="fas fa-bullhorn"></i>
+<h3>safty guide</h3>
+<p>The safety guide on a travel website serves as a virtual compass for travelers, offering a wealth of information to ensure a secure journey.
+It provides insights into local safety conditions, health precautions, and travel advisories specific to the chosen destination.
+This invaluable resource equips travelers with the knowledge they need to make informed decisions and minimize risks during their trips.
+It's a go-to reference for everything from emergency contact numbers to practical tips on staying safe while exploring unfamiliar places.</p>
+</div>
+
+<div class="box">
+<i class="fas fa-globe-asia"></i>
+<h3>around the world</h3>
+<p>Whether you're seeking a tranquil beach getaway, an adrenaline-pumping mountain expedition, or a cultural immersion in bustling cities,
+this service provides a wide range of curated travel packages and itineraries to suit every traveler's preferences.
+With a commitment to sustainability and responsible tourism, "Around The World" not only helps you fulfill your wanderlust but also promotes the preservation of our world's natural beauty and cultural heritage.</p>
+</div>
+
+<div class="box">
+<i class="fas fa-plane"></i>
+<h3>fastest travel</h3>
+<p>The fastest travel service today is undoubtedly air travel. With the ability to cover vast distances in a matter of hours,
+commercial airplanes have revolutionized the way people connect across the globe.
+Thanks to advancements in technology and infrastructure, passengers can reach their destinations quickly and efficiently,
+making air travel the preferred choice for long-distance journeys. </p>
+</div>
+
+<div class="box">
+<i class="fas fa-hiking"></i>
+<h3>adventures</h3>
+<p>Our adventure service offers thrill-seekers the opportunity to embark on unforgettable journeys into the unknown.
+Whether you crave the adrenaline rush of white-water rafting through raging rapids, the serenity of hiking through pristine wilderness,
+or the excitement of exploring exotic destinations, our adventures are designed to ignite your spirit of exploration.
+Our expert guides and carefully curated itineraries ensure that you'll have a safe and exhilarating experience, all while creating lasting memories.</p>
+</div>
+</div>
+</section>
+
+<section class="contact" id="contact">
+
+<h1 class="heading">
+<span>c</span>
+<span>o</span>
+<span>n</span>
+<span>t</span>
+<span>a</span>
+<span>c</span>
+<span>t</span>
+</h1>
+
+<div class="row">
+
+<div class="image">
+<img src="Image/p8.jpg" alt="">
+</div>
+
+<form action="">
+
+<div class="inputBox">
+<input type="text" placeholder="name">
+<input type="email" placeholder="email">
+</div>
+
+<div class="inputBox">
+<input type="number" placeholder="number">
+<input type="text" placeholder="subject">
+</div>
+
+<textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+<input type="submit" class="btn" value="send message">
+</form>
+</div>
+</section>
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>about us</h3>
+            <p>see more...</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">Colombo</a>
+            <a href="#">Jaffna</a>
+            <a href="#">Katunayaka</a>
+            <a href="#">Galle</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">contact</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#"><i class="fa-brands fa-twitter"></i> twitter</a>
+            <a href="#"><i class="fa-brands fa-instagram"></i> instagram</a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i> whatsapp</a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i> linkedin-in</a>
+        </div>
+    </div>
+
+    <h1 class="credit">create by<spam> miss.rathnayaka</spam> | all rights reserved!</h1>
+</section>
+
+<a href="#"><button class="topbtn"><i class="fa-solid fa-angle-up"></i></button></a>
+
+
+
+<!-- custom js file link -->
+<script src="Travel.js"></script>
+
+
+</body>
+</html>
